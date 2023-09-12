@@ -1,0 +1,19 @@
+swagger: "2.0"
+info:
+  title: api-freebox
+  description: API utilizada para o desenvolvimento do App FreeBox.
+  version: 1.0.0
+host: patrickrobsg.github.io/api-freebox/
+basePath: /v1
+schemes:
+  - https
+paths:
+  /users:
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in Markdown.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
